@@ -20,7 +20,7 @@ class MachineMaintainer
     'fanta' => 1.75,
     'snickers' => 1.25
   }.freeze
-  SUPPORTED_COINS = %(5, 2, 1, 0.5, 0.25).freeze
+  SUPPORTED_COINS = %w(5, 2, 1, 0.5, 0.25).freeze
 
   attr_reader :cashbox, :products, :selected_product, :cash_buffer
 
